@@ -15,7 +15,7 @@ app.set("views", templatePath);
 
 let arr;
 
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
         console.log(`Example app listening at http://localhost:${port}`)
     })
     // var fs = require('fs');
