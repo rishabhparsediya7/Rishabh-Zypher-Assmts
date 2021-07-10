@@ -30,5 +30,5 @@ axios.get('https://run.mocky.io/v3/c2eee2b4-1cbb-43d4-a5a0-48e5339a9541')
             throw err;
     });
 app.get('/', (req, res) => {
-    res.render("tables", { client: arr });
+    res.render("index", { client: arr });
 })
